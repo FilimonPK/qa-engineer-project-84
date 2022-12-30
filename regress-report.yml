@@ -1,19 +1,19 @@
 ---
 test-cases:
-- summary: |
+  - summary: |
       Тест-кейс №6 Переход по хеш-тегам групп товаров
-status: pass
+    status: pass
 
-- summary: |
+  - summary: |
       Тест-кейс №7 Проверка работы фильтров товаров
-status: fail
+    status: fail
 
-- summary: |
+  - summary: |
       Тест-кейс №9 Переключение языка сайта
-status: fail
+    status: fail
 
 bugreports:
-- summary: |
+  - summary: |
       Тест-кейс №7 Проверка работы фильтров товаров
     environment: |
       Opera 93.0.4585.11, Версия Chromium:107.0.5304.88 (Официальная сборка) (64 бит)
@@ -28,7 +28,7 @@ bugreports:
     actual-result: |
       При снятии флажка фильтра «В наличии» - отображаются товары других невыбранных категорий и производителей.
 
-- summary: |
+  - summary: |
       Тест-кейс №9 Переключение языка сайта
     environment: |
       Opera 93.0.4585.11, Версия Chromium:107.0.5304.88 (Официальная сборка) (64 бит)
